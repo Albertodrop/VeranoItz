@@ -1,0 +1,1 @@
+<?php header('location:perfil/home.php'); ?>

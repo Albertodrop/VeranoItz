@@ -1,0 +1,488 @@
+/*@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto|Spectral+SC');*/
+body{
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Spectral SC', serif;
+	font-family: 'Merriweather', serif;
+	font-family: Arial;
+	
+	
+	
+	background-color: #FFF;
+	
+
+	
+	font-size: 14px;
+	
+}
+		/*Color primario #003399*/
+.img-card{
+	width: 300px;
+	height: 170px;
+	padding: 10px;
+	
+	border-radius: 30px;
+}
+.btn-ver {
+  color: #fff;
+  background-color: #7F7F7F;
+  border-color: #F2F2F2;
+}
+
+.btn-ver:hover {
+  color: #fff;
+  background-color: #7F7F7F;
+  border-color: #7F7F7F;
+}		
+.bg-primary-b{
+	background-color: #000;
+}
+.buscador{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #ccc;
+	background: transparent;
+	outline: none;
+	color: #fff;
+	
+	font-size: 18px;
+	margin-right: 70px;
+	width: 100px;
+	text-align: center; 
+	transition: 0.5s;
+}
+.buscador:hover{
+	width: 250px;
+	text-align: left;
+}
+.buscador:focus{
+	width: 250px;
+	text-align: left;
+}
+
+
+.btn-primary-b{
+	background-color:#003399;
+	color: #FFF;
+	border-radius:20px;  
+}
+.btn-primary-b:hover{
+	opacity: .9;
+	color: #FFF; 
+}
+.text-primary-b{
+	font-weight: bold;
+	color: #003399;
+}
+.text-primary-b:hover{
+	text-decoration: none;
+}
+/*Estilos para la caja de cursos*/
+	.course-info{
+		color: #000;
+	}
+	.course-info:hover{
+		text-decoration: none;
+	}
+		
+		.curso{
+			background: url(../img/eli-francis-100644.jpg);
+			background-size: 100%;
+			width: 100%;
+			height: 350px;
+			
+		}
+		.caja-b{
+			position: relative;
+			width: 95%;
+			margin: 0 auto;
+			background: white;
+			box-shadow: 5px 5px 20px rgba(0,0,0,0.9);
+			padding: 20px;
+			border-radius: 20px;
+		}
+		.info-curso{
+			
+			bottom: 320px;
+			
+			
+			
+		}
+		.participantes{
+			
+			bottom: 305px;
+			
+			
+			
+		}
+		.ins-v{
+			
+			font-size: 20px;
+			margin: 0 40px;
+			display: inline-block;
+			position: float;
+			transition: .7s;
+		}
+		.c-v{
+			border: 2px solid #0275D9;
+			display: inline-block;
+			padding: 5px;
+			border-radius: 50%;
+			margin-right: 5px;
+		}
+		
+		.c{
+			 display: inline-block;
+			 padding: 5px;
+			 color: #95989A;
+			 font-size: 23px;
+			 
+		}
+		.c:hover{
+			
+			 color: rgba(0,0,0,.7);
+			 
+		}
+	/*Estilos para el home de students*/
+	.card{
+		border-radius: 20px;
+		transition: 0.4s;
+	}
+	.card:hover{
+		
+		box-shadow: 0px 0px 3px #000;
+	}
+	/*Estilos para addsummer*/
+	.summer-container{
+	
+	padding: 20px;
+	margin-top: 20px;
+	background-color: #fff;
+	box-shadow: 0px 0px 5px #95989A;
+	border-radius: 20px;
+}
+.title-text-s{
+	color: #95989A;
+}
+div input[type="text"],
+div input[type="number"],
+div input[type="password"],
+div input[type="email"]
+{
+	border:1px solid #95989A;
+	border-radius:20px;
+	
+
+}
+div input[type="text"]:focus,
+div input[type="number"]:focus,
+div input[type="password"]:focus,
+div input[type="email"]:focus
+{
+	border:2px solid #003399;
+}
+
+.disabled-v{
+	color: #000;
+	font-weight: bold;
+	border:none;
+	border-radius: 20px;
+	
+	
+}
+/*Estilos para el login*/
+.login-container{
+	margin-top: 120px;
+	margin-bottom: 20px;
+	padding: 20px;
+	background-color: #FFF;
+	box-shadow: 0px 0px 5px #95989A;
+	border-radius: 10px;
+
+}
+/*Estilos para itzadmin*/
+
+
+/* --- --- BARRA LATERAL --- --- */
+.barra-lateral {
+	background: #262a34;
+	color: #fff;
+	min-width: 300px;
+	min-height: 100vh;
+	padding: 0;
+}
+
+.barra-lateral a {
+	color: #fff;
+}
+
+/* --- LOGO --- */
+.barra-lateral .logo {
+	background: #003399;
+	margin-bottom: 2px;
+}
+
+.barra-lateral .logo h2 {
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	padding: 20px 0;
+	text-align: center;
+	font-weight: 300;
+	margin:0;
+}
+
+/* --- MENU --- */
+.barra-lateral .menu a {
+	display: block;
+	padding: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	border-bottom: 1px solid rgba(255,255,255,.1);
+}
+
+.barra-lateral .menu a:hover {
+	background: #003399;
+	text-decoration: none;
+}
+
+.barra-lateral .menu a i {
+	margin-right: 20px;
+	font-weight: normal;
+}
+
+/* --- --- MAIN --- --- */
+.main {
+	padding-top: 40px;
+}
+
+.main .columna {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.main .titulo {
+	color: #262a34;
+	font-size: 25px;
+	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 20px;
+}
+
+.main .widget {
+	margin-bottom: 40px;
+}
+
+/* --- Widget Nueva Entrada --- */
+.main .widget form input[type="text"],
+.main .widget form textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+	border: none;
+	box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+}
+
+.main .widget form input[type="text"] {
+	font-weight: 400;
+}
+
+.main .widget form textarea {
+	height: 400px;
+	min-height: 200px;
+	max-width: 100%; 
+	min-width: 100%;
+}
+
+.main .widget form button {
+	background: #0275d8;
+	cursor: pointer;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	border: none;
+	display: inline-block;
+	padding: 10px;
+	width: 200px;
+	border-radius: 3px;
+	transition: all .3s ease;
+}
+
+.main .widget form button:hover {
+	background: #025aa5;
+}
+
+/* --- Widget Estadisticas --- */
+.main .estadisticas .contenedor {
+	box-shadow: 0px 1px 1px 0px rgba(0,0,0,.2);
+}
+
+.main .estadisticas .caja {
+	background: #fff;
+	border: 1px solid #e3e3e3;
+	padding: 40px 20px;
+	flex: 1;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.main .estadisticas .caja h3 {
+	margin-bottom: 10px;
+	color: #003399;
+}
+
+.main .estadisticas .caja p {
+	color: #a8a8a8;
+	margin-bottom: 0;
+}
+
+.main .estadisticas .caja:first-child {
+	border-right: none;
+}
+
+.main .estadisticas .caja:last-child {
+	border-left: none;
+}
+
+/* --- Widget Comentarios --- */
+.main .comentarios .contenedor {
+	box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.2);
+}
+
+.main .comentarios .comentario {
+	background: #fff;
+	padding: 20px;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.main .comentarios .comentario .foto {
+	width: 64px;
+	height: 64px;
+	overflow: hidden;
+	margin-right: 20px;
+	border-radius: 100px;
+}
+
+.main .comentarios .comentario .foto a {
+	display: inline-block;
+}
+
+.main .comentarios .comentario .foto img {
+	width: 100%;
+}
+
+.main .comentarios .comentario .texto {
+	flex: 1;
+}
+
+.main .comentarios .comentario .texto .texto-comentario {
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.main .comentarios .comentario .botones button {
+	background: none;
+	cursor: pointer;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	border: none;
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 3px;
+	transition: all .3s ease;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.main .comentarios .comentario .botones .aprobar {background: #35ae6b;}
+.main .comentarios .comentario .botones .eliminar {background: #b74848;}
+.main .comentarios .comentario .botones .bloquear {color: #acacac;}
+
+.main .comentarios .comentario .botones .aprobar:hover {background: #449d44;}
+.main .comentarios .comentario .botones .eliminar:hover {background: #c9302c;}
+.main .comentarios .comentario .botones .bloquear:hover {
+	background: #acacac;
+	color: #fff;
+}
+
+/* --- --- MEDIAQUERIES --- --- */
+@media screen and (max-width: 1300px) {
+	.barra-lateral {
+		min-width: auto;
+	}
+
+	.barra-lateral .logo {
+		display: none;
+	}
+
+	.barra-lateral .menu a span {
+		display: none;
+	}
+
+	.barra-lateral .menu a i {
+		margin:0;
+	}
+}
+/*Mi perfil*/
+.mifotoperfil{
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	margin-right: 10px;
+	padding: 3px;
+	
+}
+.miperfil{
+	width: 80%;
+	margin: 0 auto;
+	background: #fff;
+	padding-left: 10px;
+	box-shadow: 5px 5px 10px #ccc;
+	border-radius: 20px; 
+}
+.conf-perfil{
+	font-size: 30px;
+	margin-left: 80px;
+	color:  #000;
+	font-weight: bold;
+	text-decoration: none;
+}
+.my-photo{
+	width: 100%;
+	height: 200px;
+	border-radius: 50%;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+@media screen and (max-width: 575px) {
+	.barra-lateral {
+		min-height: auto;
+	}
+
+	.barra-lateral .menu a {
+		display: inline-block;
+		border-bottom: none;
+	}
+
+	.main .widget form button {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.main .comentarios .comentario .foto {
+		width: 30px;
+		height: 30px;
+	}
+
+	.main .comentarios .comentario .botones button {
+		width: 100%;
+	}
+}
+.bl{
+	cursor: pointer;
+}
